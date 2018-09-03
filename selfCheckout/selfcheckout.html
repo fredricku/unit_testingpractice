@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title>selfcheckout</title>
+	<link rel="stylesheet" type="text/css" href="selfcheckout.css">
+</head>
+
+<body>
+<h1>Self Checkout</h1>
+	<br>
+		<div id="items">
+			Item1: <input id="item" type="text" placeholder="enter item name">
+			Quantity:<input id="quantity" type="text" placeholder="number of items" >
+			Price:<input id="price" type="text" placeholder="cost">
+			<br>
+
+			<p></p>
+
+			Item2: <input id="item2" type="text"  placeholder="enter item name">
+			Quantity:<input id="quantity2" type="text" placeholder="number of items" >
+			Price:<input id="price2" type="text" placeholder="cost">
+			<br>
+
+			<p></p>
+
+		 Item3: <input id="item3" type="text"  placeholder="enter item name">
+		 Quantity:<input id="quantity3" type="text" placeholder="number of items" >
+		 Price:<input id="price3" type="text" placeholder="cost">
+		 <br>
+
+		 </div>
+		 <p></p>
+		 <div>
+
+	<button onclick="getUserInput()" id="button">Add Item</button>
+		<p></p>
+
+	</div>
+	<br>
+	 <div id="subtotal1">subtotal1:</div>
+		<br>
+			<div id="subtotal2">subtotal2:</div>
+			<br>
+			<div id="subtotal3">subtotal3:</div>
+		<br>
+		Total:<div id="total">total:</div>
+			<br>
+			<br>
+			<div id="listOfItems"></div>
+		<br>
+	</script>
+ 			<script src = "selfcheckout.js">
+	</script>
+	</body>
+	</html>

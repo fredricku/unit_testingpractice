@@ -1,0 +1,26 @@
+body{
+  background-color: #d4d8d8;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  position: relative;
+}
+#items{
+  font-style: italic;
+  color: #501b6d;
+}
+
+#subtotal1, #subtotal2, #subtotal3{
+
+  font-style: italic;
+  color: #501b6d;
+
+}
+button {
+border-color:  #510c26;
+background-color: #565253;
+font-style: italic;
+color: #f5f7ef;
+
+}
